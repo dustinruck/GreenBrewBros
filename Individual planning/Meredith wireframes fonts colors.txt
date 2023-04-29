@@ -1,0 +1,26 @@
+
+
+Wireframes
+-------------------------
+
+Desktop: https://wireframe.cc/zXgjDr
+
+Mobile: https://wireframe.cc/uXjjgd
+
+
+Color Scheme
+-------------------------
+
+https://color.adobe.com/My-Color-Theme-color-theme-1df1f2db-2828-424c-910d-4d9882ea8d32/
+
+
+Fonts
+-------------------------
+
+Shrikhand (logo): https://fonts.google.com/specimen/Shrikhand
+
+Rubik (headers): https://fonts.google.com/specimen/Rubik
+
+Nunito (body): https://fonts.google.com/specimen/Nunito
+
+
