@@ -46,4 +46,19 @@ Home
 		stay tuned for more events (offer email signup)
 		past successful events (images with captions and/or links)
 		instagram?
-	
+	products
+		overview (foodie buzzwords, talk up quality, craftsmanship, brewing philosophy)
+		featured beers (image, brief description)
+		possibly showcase or discuss one beer that the brewery is famous for (tie into history)
+		come try at the taproom
+	contact
+		address (map image?)
+		operating hours
+		phone
+		email
+		form in site?
+		links to social accounts
+		newsletter sign up
+		
+		
+		
