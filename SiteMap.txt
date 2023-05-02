@@ -1,1 +1,21 @@
 SiteMap.txt
+
+- Home Page
+    - (Section) Trade Show Blurb
+    - (Section) Sustainanbility Banner
+    - (Section) Our Brewery
+    - (Section) Our Beers
+    - (Section) Social Feed
+    - (Section) Newsletter
+- Our Brewery
+- Events - Tradeshows
+    - Event 1
+    - Event 2
+    - Event 3
+    - Event 4
+- Our Beers
+    - Beer 1
+    - Beer 2
+    - Beer 3
+    - Beer 4
+- Contact Us
