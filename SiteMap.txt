@@ -1,4 +1,3 @@
-SiteMap.txt
 
 - Home Page
     - (Section) Trade Show Blurb
@@ -7,6 +6,7 @@ SiteMap.txt
     - (Section) Our Beers
     - (Section) Social Feed
     - (Section) Newsletter
+- About Us
 - Our Brewery
 - Events - Tradeshows
     - Event 1
