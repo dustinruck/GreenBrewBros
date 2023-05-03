@@ -1,0 +1,161 @@
+
+Alex Franklin #2342810
+Lewis Innes-Miller #2339230
+Meredith White 2340884
+Dustin Ruck 0234348
+
+
+END GOAL
+
+PRIMARY
+To market our brand to our target audience
+
+SECONDARY
+To show off how we are brewing beer in an ecologically responsible way and to showcase our participation in trade shows. Attract some sponsors.
+
+
+
+TARGET AUDIENCE 
+Our target audience is primarily eco-conscious millennials, as well as potential sponsors. 
+
+
+IDEAS TO MARKET CONTENT TOWARD AUDIENCE
+
+Home
+
+	About
+		Our story (who are the bros? Year established, millennial signalling (new gen of family tradition?), image of owners/staff, lead into mission)
+
+		Mission (ecological flavour, buzzwords, list initiatives/pledges, make the customer feel like they are helping the planet by buying, vague stock images)
+
+		The brewery (location, history (eg building or town), brewing technique, what it's like to visit, images of brewing equipment, taproom, bottles/cans, happy customers)
+
+	Events
+		Introduction, set the brewery in the trade show scene
+
+		Trade show 1-4. Each show: large image, title, date, link for more info or to rsvp, possibly short description to talk it up
+
+		Stay tuned for more events (offer email signup)
+
+		Past successful events (images with captions and/or links)
+
+	Products
+
+		Overview (foodie buzzwords, talk up quality, craftsmanship, brewing philosophy)
+
+		Featured beers (image, brief description)
+
+		Possibly showcase or discuss one beer that the brewery is famous for (tie into history)
+		Come try at the taproom
+
+	Contact
+		Address (map image?)
+		Operating hours
+		Phone
+		Email
+		Form in site?
+		Links to social accounts
+		Newsletter sign up
+
+CONTENT 
+Home page 
+About Us 
+Events
+Our Beers
+Our Brewery 
+Contact Us
+
+
+FUTURE CONSIDERATIONS
+An FAQ
+A Blog
+A privacy policy 
+“Our sponsors” for when we get some. 
+
+
+SITE MAP
+All Pages: 
+	Header: Logo, Home, About Us, Events, Our Beers, Our brewery, Get in Touch, Search bar, English/French
+	Footer: Image of hops, Logo, newsletter sign up (html form), address, contact us, copyright, social media handle with logos 
+
+
+Home Page: 
+Body: Trade show circuit with button, sustainability mention with button, brewery and taproom with button, on tap with button, social feed with images
+	
+
+
+About Us: 
+Body: Our story, Our mission, Our commitment to sustainable brewing, eco logos of certifications, buttons linking to brewery and beer
+
+Trade Shows: 
+Body: Date toggle at top that swipes to event on that date with event preview, event list, button to buy tickets 
+
+Brewery: 
+Body: description, tours, map with a visit us 
+
+Products: 
+Body: beer with toggle for slide show, the GreenBrewBros promise, button to learn more about mission 
+
+Contact Page: 
+-address
+-phone number
+-hours
+-google maps screenshot
+-email
+-comment form to leave a message (html form)
+
+
+
+Fonts and Colours:
+
+Headings: Heebo Medium
+Body: Cairo Light
+Colours: 
+#064635 (dark forests green)
+#F5F5F5 (off white)
+#DBBB85 (sand)
+#BCD6D5 (baby blue) 
+
+
+
+Initial Meeting:
+
+·       Video on homepage could be a good idea (like fourwinds brewing)
+·       How to differentiate the four different trade shows: beer focused trade shows, farmer’s market local business trade show, eco-friendly business trade show, sustainable brewing trade show
+·       About, our story pages, 
+·       Each group member will make a wireframe for the homepage and we will reconvene to make a final decision on the design
+
+
+
+Notes on our wireframes: 
+
+- videos or images (slideshow) at the top 
+- I like the calendar widget (sometimes they can we problematic- no) 
+- see how we’re making a difference button. 
+- “organic local sustainable” 
+- discussion: products before trade shows?? 
+- can we actually sell? 
+- are we looking for sponsors or customers? 
+ - this isn’t e-commerce 
+- NO calendar widget 
+- Socials news feed!! (We like this) 
+- search logo 
+- blocks of large images to fill up page (our brewery and pub) 
+- newsletter in large image 
+- blurb abut environmentalism with “see how we’re making a difference” 
+- scrap “our mission” from home page, but allude to it. 
+- fixed header - snap scroll 
+- Where should be have our contact information? - both. 
+- logo dips down into video - pops back up as we scroll. 
+
+Notes on our mockups:
+-All headings should be in lower case
+-We are getting rid of the one green (#41644A)
+-Unifying headers and footers 
+- Using the wispier logo 
+- adding address to our footer 
+-background will be off-white
+
+
+
+
