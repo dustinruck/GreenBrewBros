@@ -1,5 +1,6 @@
 
 Alex Franklin #2342810
+Lewis Innes-Miller #2339230
 
 
 END GOAL
@@ -8,7 +9,7 @@ PRIMARY
 To market our brand to our target audience
 
 SECONDARY
-To show off how we are brewing beer in an ecologically responsible way and to showcase our participation in trade shows. 
+To show off how we are brewing beer in an ecologically responsible way and to showcase our participation in trade shows. Attract some sponsors.
 
 
 
@@ -22,6 +23,7 @@ About Us
 Events
 Our Beers
 Our Brewery 
+Contact Us
 
 
 FUTURE CONSIDERATIONS
@@ -55,7 +57,12 @@ Products:
 Body: beer with toggle for slide show, the GreenBrewBros promise, button to learn more about mission 
 
 Contact Page: 
-
+-address
+-phone number
+-hours
+-google maps screenshot
+-email
+-comment form to leave a message
 
 
 
@@ -105,8 +112,9 @@ Notes on our mockups:
 -All headings should be in lower case
 -We are getting rid of the one green (#41644A)
 -Unifying headers and footers 
-- Using the whispier logo 
+- Using the wispier logo 
 - adding address to our footer 
+-background will be off-white
 
 
 
