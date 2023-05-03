@@ -36,7 +36,7 @@ A privacy policy
 SITE MAP
 All Pages: 
 	Header: Logo, Home, About Us, Events, Our Beers, Our brewery, Get in Touch, Search bar, English/French
-	Footer: Image of hops, Logo, newsletter sign up, address, contact us, copyright, social media handle with logos 
+	Footer: Image of hops, Logo, newsletter sign up (html form), address, contact us, copyright, social media handle with logos 
 
 
 Home Page: 
@@ -62,7 +62,7 @@ Contact Page:
 -hours
 -google maps screenshot
 -email
--comment form to leave a message
+-comment form to leave a message (html form)
 
 
 
