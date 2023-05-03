@@ -1,6 +1,8 @@
 
 Alex Franklin #2342810
 Lewis Innes-Miller #2339230
+Meredith White 2340884
+Dustin Ruck 
 
 
 END GOAL
@@ -15,7 +17,45 @@ To show off how we are brewing beer in an ecologically responsible way and to sh
 
 TARGET AUDIENCE 
 Our target audience is primarily eco-conscious millennials, as well as potential sponsors. 
- 
+
+
+IDEAS TO MARKET CONTENT TOWARD AUDIENCE
+
+Home
+
+	About
+		Our story (who are the bros? Year established, millennial signalling (new gen of family tradition?), image of owners/staff, lead into mission)
+
+		Mission (ecological flavour, buzzwords, list initiatives/pledges, make the customer feel like they are helping the planet by buying, vague stock images)
+
+		The brewery (location, history (eg building or town), brewing technique, what it's like to visit, images of brewing equipment, taproom, bottles/cans, happy customers)
+
+	Events
+		Introduction, set the brewery in the trade show scene
+
+		Trade show 1-4. Each show: large image, title, date, link for more info or to rsvp, possibly short description to talk it up
+
+		Stay tuned for more events (offer email signup)
+
+		Past successful events (images with captions and/or links)
+
+	Products
+
+		Overview (foodie buzzwords, talk up quality, craftsmanship, brewing philosophy)
+
+		Featured beers (image, brief description)
+
+		Possibly showcase or discuss one beer that the brewery is famous for (tie into history)
+		Come try at the taproom
+
+	Contact
+		Address (map image?)
+		Operating hours
+		Phone
+		Email
+		Form in site?
+		Links to social accounts
+		Newsletter sign up
 
 CONTENT 
 Home page 
