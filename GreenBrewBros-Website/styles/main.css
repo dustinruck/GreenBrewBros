@@ -10,6 +10,17 @@ font-family: 'Heebo', sans-serif; */
 #F5F5F5 : off-white 
 #064635 : forest green  */
 
+/* FOOTER STUFF  */
+
+.footer-newsletter {
+background-color: rgb(6, 70, 53, 50%);
+}
+
+
+.footer-bottom {
+    background-color: rgb(6, 70, 53, 83%);
+}
+
 
 
 
