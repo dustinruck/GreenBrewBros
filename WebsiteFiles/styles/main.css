@@ -10,16 +10,17 @@ font-family: 'Heebo', sans-serif; */
 #F5F5F5 : off-white 
 #064635 : forest green  */
 
-/* FOOTER STUFF  */
+body {
+    font-family: 'Cairo', sans-serif;
+}
 
-.footer-newsletter {
-background-color: rgb(6, 70, 53, 50%);
+/* Add anything here that's Heebo  */
+
+.newsletter-h4 {
+    font-family: 'Heebo', sans-serif;
 }
 
 
-.footer-bottom {
-    background-color: rgb(6, 70, 53, 83%);
-}
 /* --------------------------------------------------------------------------------------------------------------
 Text Colours */
 
@@ -43,3 +44,42 @@ Text Colours */
 
 
 
+
+
+/* FOOTER STUFF  */
+
+.footer-newsletter {
+    background-color: rgb(6, 70, 53, 50%);
+    }
+    
+    
+ .footer-bottom {
+     background-color: rgb(6, 70, 53, 83%);
+ }
+
+ .newsletter-h4 {
+     font-size: 4em; 
+     margin-left: 5px;
+ }
+
+/* --------------------------------------------------------------------------------------------------------------
+ MEDIA QUERIES: ORDER: (MAX 804) - (MAX-707) -  */
+
+
+   @media screen and (max-width: 804px) {
+    .newsletter-h4 {
+        font-size: 3.5em; 
+    }
+  }
+
+  @media screen and (max-width: 707px) {
+    .newsletter-h4 {
+        font-size: 3em; 
+    }
+  }
+
+  @media screen and (max-width: 613px) {
+    .newsletter-h4 {
+        font-size: 2.5em; 
+    }
+  }
