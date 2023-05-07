@@ -70,104 +70,123 @@
                 </div>
                 <div class="col-12 col-sm-8" style="border: black 1px solid;">
 
-                    <div class="row footer-signup">
-                        <!-- Sign up blurb  -->
-                        <div class="col-12 col-sm-11 col-sm-offset-1 text-center text-sm-start"
-                            style="border: black 1px solid;">Sign up to receive our
-                            newsletter and be the first
-                            to hear about upcoming events and promotions.</div>
-                        <div class="col-12 col-sm-11 col-sm-offset-1" style="border: black 1px solid;">
-                            <div class="row footer-form" style="border: black 1px solid;">
-                                <!-- input form  -->
-                                <!-- ADD FORM HERE  -->
-                                <div class="col-12 col-sm-5 text-center text-sm-start" style="border: black 1px solid;">
-                                    Foooooooooorm
-                                </div>
-                                <!-- button  -->
-                                <div class="col-12 col-sm-7 text-center text-sm-start" style="border: black 1px solid;">
-                                    button</div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- FORM -->
+                    <!-- TODO: What do we send this form to? -->
+
+
+
+                    <form action="index.html" method="POST">
+                        <div class="row footer-signup form-group">
+
+                            <!-- Sign up blurb  -->
+                            <div class="col-12 col-sm-11 col-sm-offset-1 text-center text-sm-start"
+                                style="border: black 1px solid;"><label for="newsletter-email" class="footer-label">
+                                    Sign
+                                    up to receive our
+                                    newsletter and be the first
+                                    to hear about upcoming events and promotions.</label></div>
+                            <div class="col-12 col-sm-11 col-sm-offset-1" style="border: black 1px solid;">
+                                <div class="row footer-form" style="border: black 1px solid;">
+
+
+
+                                    <div class="row">
+                                        <div class="col-12 col-sm-5 text-center text-sm-start"
+                                            style="border: black 1px solid;">
+                                            <input type="email" id="newsletter-email" name="userEmail"
+                                                class="form-control" aria-describedby="emailNewsletterSignUp">
+                                        </div>
+                                        <!-- button  -->
+                                        <div class="col-12 col-sm-7 text-center text-sm-start"
+                                            style="border: black 1px solid;">
+                                            <input type="submit" name="btn-submit-email" class="newsletter-btn btn">
+
+
+                                        </div>
+                                    </div>
+                    </form>
+
                 </div>
             </div>
+        </div>
+        </div>
 
 
 
 
-            <!-- Bottom of footer  -->
-            <div class="footer-bottom mx-0">
-                <!-- Responsibly  -->
-                <div class="row  m-0"> <!-- background opacityyyyyy footer-bottom -->
-                    <div class="col-12 mt-0 mb-5 mb-sm-0 text-center">
-                        <h4 class="footer-legal-warning mb-0">
-                            Please Drink Responsibly
-                        </h4>
-                        <a href="#" class="footer-contact-us">Contact Us </a>
-                        <!-- @media in css, very very negative bottom margin, push it past next row. 
+        <!-- Bottom of footer  -->
+        <div class="footer-bottom mx-0">
+            <!-- Responsibly  -->
+            <div class="row  m-0"> <!-- background opacityyyyyy footer-bottom -->
+                <div class="col-12 mt-0 mb-5 mb-sm-0 text-center">
+                    <h4 class="footer-legal-warning mb-0">
+                        Please Drink Responsibly
+                    </h4>
+                    <a href="#" class="footer-contact-us">Contact Us </a>
+                    <!-- @media in css, very very negative bottom margin, push it past next row. 
                             This is the only way I can think of to keep it centered, and go on the page where we want it to
                         that doesn't involve creating two seperate contact us links and hiding them. -->
-                    </div>
-                </div>
-
-
-                <!-- middle of footer  -->
-                <div class="row  m-0">
-                    <div class="col-12 col-sm-3 text-center order-sm-last">
-
-
-                        <!-- Handle and Icons 
-                        This is all centered-->
-                        <div class="row">
-                            <div class="col-12">
-                                <h4 class="handle p-0 m-0">@GreenBrewBros</h4>
-                            </div>
-                            <div class="col-12">ICON ICON ICON ICON</div>
-
-                        </div>
-                    </div>
-
-
-                    <!-- logo and address  -->
-                    <div class="col-12 col-sm-9 text-center text-sm-start">
-                        <div class="row">
-                            <div class="col-12 col-sm-2">LOGO (img) </div>
-                            <div class="col-6 d-none d-sm-block">
-                                <p class="footer-address">
-
-                                    6245 Chebucto Rd <br>
-                                    Halifax, NS <br>
-                                    B3L 1K8 <br>
-                                    782-880-8512 <br> </p>
-                                brewmaster@gbb.ca <!-- add mailto <a> -->
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-
-
-                <div class="row  m-0"> <!-- background opacityyyyyy footer-bottom -->
-                    <div class="col-12 text-center">
-                        <p class="m-0 p-0 copyright">copyright</p>
-                    </div>
-
-
-
                 </div>
             </div>
 
 
+            <!-- middle of footer  -->
+            <div class="row  m-0">
+                <div class="col-12 col-sm-3 text-center order-sm-last">
+
+
+                    <!-- Handle and Icons 
+                        This is all centered-->
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="handle p-0 m-0">@GreenBrewBros</h4>
+                        </div>
+                        <div class="col-12">ICON ICON ICON ICON</div>
+
+                    </div>
+                </div>
+
+
+                <!-- logo and address  -->
+                <div class="col-12 col-sm-9 text-center text-sm-start">
+                    <div class="row">
+                        <div class="col-12 col-sm-2">LOGO (img) </div>
+                        <div class="col-6 d-none d-sm-block">
+                            <p class="footer-address">
+
+                                6245 Chebucto Rd <br>
+                                Halifax, NS <br>
+                                B3L 1K8 <br>
+                                782-880-8512 <br> </p>
+                            brewmaster@gbb.ca <!-- add mailto <a> -->
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row  m-0"> <!-- background opacityyyyyy footer-bottom -->
+                <div class="col-12 text-center">
+                    <p class="m-0 p-0 copyright">copyright</p>
+                </div>
+
+
+
+            </div>
+        </div>
 
 
 
 
 
 
-            <!-- end of footer  -->
+
+
+        <!-- end of footer  -->
         </div>
     </footer>
 
