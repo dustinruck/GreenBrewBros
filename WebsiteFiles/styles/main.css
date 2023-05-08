@@ -26,7 +26,7 @@ Text Colours */
 
 /* TEXT COLOUR #BCD6D5 : light blue */
 
-.newsletter-h4, .footer-address {
+.newsletter-h4, .footer-address, .copyright, .footer-legal-warning, .footer-contact-us {
     color: #BCD6D5; 
 }
 
@@ -73,6 +73,10 @@ Text Colours */
     width: 100px;
  }
 
+ .footer-contact-us {
+    margin-top: -70px;
+ }
+
 /* --------------------------------------------------------------------------------------------------------------
  MEDIA QUERIES: ORDER: (MAX-934) - (MAX 804) - (MAX-707) - (MAX-613) */
 
@@ -107,10 +111,28 @@ Text Colours */
     .newsletter-h4 {
         font-size: 3em; 
     }
+
+    .footer-address {
+        margin-left: 2px;
+        font-size: .7em;
+     }
+    
+     footer .logo {
+        width: 78px;
+     }
   }
 
   @media screen and (max-width: 613px) {
     .newsletter-h4 {
         font-size: 2.5em; 
     }
+
+    .footer-address {
+        margin-left: 6px;
+        font-size: .7em;
+     }
+    
+     footer .logo {
+        width: 78px;
+     }
   }
