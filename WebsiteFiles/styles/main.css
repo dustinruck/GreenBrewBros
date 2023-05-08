@@ -104,7 +104,7 @@ Text Colours */
      }
     
      footer .logo {
-        width: 87px;
+        width: 100px;
      }
 
      .footer-contact-us {
@@ -146,9 +146,15 @@ Text Colours */
      }
   }
 
-  @media screen and (max-width: 707px) {
+  @media screen and (max-width: 755px) {
     .newsletter-h4 {
         font-size: 3em; 
+    }
+  }
+
+  @media screen and (max-width: 707px) {
+    .newsletter-h4 {
+        font-size: 2.6em; 
     }
 
     .footer-address {
