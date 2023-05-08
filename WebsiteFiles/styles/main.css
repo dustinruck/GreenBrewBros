@@ -35,8 +35,13 @@ Text Colours */
 
 /* TEXT COLOUR #F5F5F5 : off-white  */
 
+footer label, .newsletter-btn {
+   color: #F5F5F5;
+}
 
 /* TEXT COLOUR #064635 : forest green  */
+
+
 
 
 /* --------------------------------------------------------------------------------------------------------------
@@ -91,6 +96,12 @@ Text Colours */
     font-size: 1.5em;
     margin-left: 1px;
     margin-right: 1px;
+ }
+
+/* Background image */
+ footer {
+   background-image: url("../images/background-footer.jpeg");
+   object-fit: cover;
  }
 
 /* --------------------------------------------------------------------------------------------------------------
