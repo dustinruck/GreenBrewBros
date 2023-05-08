@@ -68,6 +68,10 @@ Text Colours */
     .about-us-cert-img {
         width: 100px;
     }
+    
+    .about-bottom {
+        padding-bottom: 4em;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -86,5 +90,30 @@ Text Colours */
     
     .our-story-p, .our-commitment-p {
         color: #F5F5F5;
+    }
+
+    .our-commitment-h2, .our-story-h2 {
+        padding-top: 2em;
+    }
+
+    .about-bottom {
+        padding-bottom: 1.5em;
+    }
+  }
+
+
+  @media screen and (max-width: 576px) {
+    .opaque-band {
+        height: 2.3em;
+     
+    }
+
+    .commitment-img, .our-story-img {
+        margin-top: -2.3em;
+        margin-bottom: -2.3em;
+    }
+    
+    .our-commitment-h2, .our-story-h2 {
+        padding-top: 1.5em;
     }
   }
