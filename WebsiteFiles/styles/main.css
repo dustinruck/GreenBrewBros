@@ -119,13 +119,13 @@ footer .newsletter {
        margin-right: 0px;
     }
  }
-  
- @media screen and (max-width: 934px) {
-    .footer-address {
+
+   @media screen and (max-width: 934px) {
+    footer .address {
         line-height: 1.1em;
         font-size: 1em;
      }
-
+    
      .handle {
         font-size: 1.25em;
      }
@@ -138,7 +138,7 @@ footer .newsletter {
   }
 
    @media screen and (max-width: 804px) {
-    .newsletter-h4 {
+      footer h4 {
         font-size: 3.5em; 
     }
 
@@ -153,24 +153,25 @@ footer .newsletter {
   }
 
   @media screen and (max-width: 755px) {
-    .newsletter-h4 {
+      footer h4 {
         font-size: 3em; 
     }
   }
 
   @media screen and (max-width: 707px) {
-    .newsletter-h4 {
+      footer h4 {
         font-size: 2.6em; 
     }
 
-    .footer-address {
+    footer .address {
         margin-left: 2px;
         font-size: .8em;
      }
+    
 
-     .handle {
+     /* .handle {
         font-size: 1.1em;
-     }
+     } */
 
      footer .bi, footer .fa-brands {
         font-size: 1em;
@@ -179,40 +180,40 @@ footer .newsletter {
   }
 
   @media screen and (max-width: 613px) {
-   footer h4 {
-     font-size: 2.5em; 
- }
+      footer h4 {
+        font-size: 2.5em; 
+    }
 
- footer .address {
-     margin-left: 6px;
-     font-size: .7em;
+    footer .address {
+        margin-left: 6px;
+        font-size: .7em;
+     }
+
+     .handle {
+        font-size: 1em;
+     }
+
+     footer .bi, footer .fa-brands {
+        font-size: 1em;
+
+     }
   }
 
-  .handle {
-     font-size: 1em;
+  @media screen and (max-width: 575px) {
+
+
+     .copyright, .footer-legal-warning {
+        font-size: .8em;
+     }
+
+     .handle {
+        font-size: 1em;
+     }
+
+     footer .bi, footer .fa-brands {
+        font-size: 1.5em;
+        margin-left: 1px;
+        margin-right: 1px;
+
+     }
   }
-
-  footer .bi, footer .fa-brands {
-     font-size: 1em;
-
-  }
-}
-
-@media screen and (max-width: 575px) {
-
-
-   .copyright, .footer-legal-warning {
-      font-size: .8em;
-   }
-
-   .handle {
-      font-size: 1em;
-   }
-
-   footer .bi, footer .fa-brands {
-      font-size: 1.5em;
-      margin-left: 1px;
-      margin-right: 1px;
-
-   }
-}
