@@ -26,7 +26,7 @@ Text Colours */
 
 /* TEXT COLOUR #BCD6D5 : light blue */
 
-.newsletter-h4, .footer-address, .copyright, .footer-legal-warning, .footer-contact-us, .handle, footer .bi {
+.newsletter-h4, .footer-address, .copyright, .footer-legal-warning, .footer-contact-us, .handle, footer .bi, .fa-brands {
     color: #BCD6D5; 
 }
 
@@ -87,7 +87,7 @@ Text Colours */
     font-weight: 600;
  }
 
- footer .bi {
+ footer .bi, footer .fa-brands{
     font-size: 1.5em;
     margin-left: 1px;
     margin-right: 1px;
@@ -115,7 +115,7 @@ Text Colours */
         font-size: 1.25em;
      }
 
-     footer .bi {
+     footer .bi, footer .fa-brands {
         font-size: 1.2em;
         margin-left: 0px;
         margin-right: 0px;
@@ -174,7 +174,7 @@ Text Colours */
         font-size: 1.1em;
      }
 
-     footer .bi {
+     footer .bi, footer .fa-brands {
         font-size: 1em;
 
      }
@@ -198,7 +198,7 @@ Text Colours */
         font-size: 1em;
      }
 
-     footer .bi {
+     footer .bi, footer .fa-brands {
         font-size: 1em;
 
      }
@@ -218,7 +218,7 @@ Text Colours */
         font-size: 1em;
      }
 
-     footer .bi {
+     footer .bi, footer .fa-brands {
         font-size: 1.5em;
         margin-left: 1px;
         margin-right: 1px;
