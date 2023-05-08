@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;800&family=Heebo:wght@300;400;500;700&display=swap');
+
+/* font-family: 'Cairo', sans-serif;
+font-family: 'Heebo', sans-serif; */
+
+/* colours:
+
+#BCD6D5 : light blue 
+#DBBB85 : sand 
+#F5F5F5 : off-white 
+#064635 : forest green  */
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #F5F5F5;
+}
+
+/* Add anything here that's Heebo  */
+
+.about-title {
+    font-family: 'Heebo', sans-serif;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------
+Text Colours */
+
+/* TEXT COLOUR #BCD6D5 : light blue */
+
+.about-title {
+    color: #BCD6D5; 
+}
+
+/* TEXT COLOUR #DBBB85 : sand  */
+
+
+/* TEXT COLOUR #F5F5F5 : off-white  */
+
+
+/* TEXT COLOUR #064635 : forest green  */
+
+
+
+
+.about-title {
+    font-size: 3.5em;
+}
+
+.opaque-background {
+    background-color: rgb(6, 70, 53, 50%);
+}
