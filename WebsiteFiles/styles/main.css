@@ -16,10 +16,14 @@ body {
 
 /* Add anything here that's Heebo  */
 
-.newsletter-h4 {
-    font-family: 'Heebo', sans-serif;
+footer h4 {
+   font-family: 'Heebo', sans-serif;
 }
 
+.homepage h1 {
+  font-family: 'Heebo', sans-serif;
+  color: #BCD6D5;
+}
 
 
 {
@@ -33,8 +37,8 @@ Text Colours */
 
 /* TEXT COLOUR #BCD6D5 : light blue */
 
-.newsletter-h4, .footer-address, .copyright, .footer-legal-warning, .footer-contact-us, .handle, footer .bi, .fa-brands {
-    color: #BCD6D5; 
+footer, footer .bi, footer .fa-brands {
+   color: #BCD6D5; 
 }
 
 /* TEXT COLOUR #DBBB85 : sand  */
@@ -42,10 +46,9 @@ Text Colours */
 
 /* TEXT COLOUR #F5F5F5 : off-white  */
 
-footer label, .newsletter-btn {
+footer label, footer .btn {
    color: #F5F5F5;
 }
-
 /* TEXT COLOUR #064635 : forest green  */
 
 
@@ -69,35 +72,21 @@ footer label, .newsletter-btn {
      background-color: rgb(6, 70, 53, 83%);
  }
 
- .newsletter-h4 {
-     font-size: 4em; 
-     margin-left: 5px;
-     font-weight: 500;
- }
+ footer h4 {
+   font-size: 4em; 
+   font-weight: 500;
+}
 
+.handle {
+   font-size: 2em;
+}
 
- .footer-address {
-    line-height: 1.15em;
-    margin-left: -15px;
- }
-
- footer .logo {
-    width: 100px;
- }
-
- .footer-contact-us {
-    margin-top: -70px;
-    text-decoration: none;
- }
  .footer-contact-us:hover, .footer-contact-us:visited {
     text-decoration: none;
     font-weight: 600;
     color: #BCD6D5; 
  }
 
- .footer-legal-warning {
-    font-weight: 600;
- }
 
  footer .bi, footer .fa-brands{
     font-size: 1.5em;
@@ -113,20 +102,28 @@ footer label, .newsletter-btn {
 
 /* --------------------------------------------------------------------------------------------------------------
  MEDIA QUERIES: ORDER: (MAX-934) - (MAX 804) - (MAX-707) - (MAX-613) */
+ 
+ @media screen and (max-width: 1200px) {
+   footer .address {
+       line-height: 1.2em;
+       font-size: 1.2em;
+    }
+   
+    .handle {
+       font-size: 1.5em;
+    }
 
-  @media screen and (max-width: 934px) {
+    footer .bi, footer .fa-brands {
+       font-size: 1.5em;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+ }
+  
+ @media screen and (max-width: 934px) {
     .footer-address {
         line-height: 1.1em;
-        margin-left: -12px;
-        font-size: .9em;
-     }
-    
-     footer .logo {
-        width: 100px;
-     }
-
-     .footer-contact-us {
-        margin-top: -65px;
+        font-size: 1em;
      }
 
      .handle {
@@ -145,19 +142,10 @@ footer label, .newsletter-btn {
         font-size: 3.5em; 
     }
 
-    .footer-address {
-        margin-left: -6px;
-        font-size: .9em;
-     }
-    
-     footer .logo {
-        width: 80px;
-     }
-
-     .footer-contact-us {
-        margin-top: -63px;
-        font-size: .9em;
-     }
+    footer .address {
+      margin-left: 2px;
+      font-size: .9em;
+   }
 
      .copyright, .footer-legal-warning {
         font-size: .9em;
@@ -177,15 +165,7 @@ footer label, .newsletter-btn {
 
     .footer-address {
         margin-left: 2px;
-        font-size: .7em;
-     }
-    
-     footer .logo {
-        width: 300px;
-     }
-
-     .footer-contact-us {
-        margin-top: -57px;
+        font-size: .8em;
      }
 
      .handle {
@@ -199,55 +179,40 @@ footer label, .newsletter-btn {
   }
 
   @media screen and (max-width: 613px) {
-    .newsletter-h4 {
-        font-size: 2.5em; 
-    }
+   footer h4 {
+     font-size: 2.5em; 
+ }
 
-    .footer-address {
-        margin-left: 6px;
-        font-size: .7em;
-     }
-    
-     footer .logo {
-        width: 78px;
-     }
-
-     .handle {
-        font-size: 1em;
-     }
-
-     footer .bi, footer .fa-brands {
-        font-size: 1em;
-
-     }
+ footer .address {
+     margin-left: 6px;
+     font-size: .7em;
   }
 
-  @media screen and (max-width: 575px) {
-    .footer-contact-us {
-        margin-top: -95px;
-        font-size: .8em;
-     }
-
-     .copyright, .footer-legal-warning {
-        font-size: .8em;
-     }
-
-     .handle {
-        font-size: 1em;
-     }
-
-     footer .bi, footer .fa-brands {
-        font-size: 1.5em;
-        margin-left: 1px;
-        margin-right: 1px;
-
-     }
-     .footer-socials {
-        margin-top: -120px;
-
-     }
-
-     .legal-container {
-        padding-bottom: 100px;
-     }
+  .handle {
+     font-size: 1em;
   }
+
+  footer .bi, footer .fa-brands {
+     font-size: 1em;
+
+  }
+}
+
+@media screen and (max-width: 575px) {
+
+
+   .copyright, .footer-legal-warning {
+      font-size: .8em;
+   }
+
+   .handle {
+      font-size: 1em;
+   }
+
+   footer .bi, footer .fa-brands {
+      font-size: 1.5em;
+      margin-left: 1px;
+      margin-right: 1px;
+
+   }
+}
