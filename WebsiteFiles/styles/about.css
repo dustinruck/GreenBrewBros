@@ -17,7 +17,7 @@ body {
 
 /* Add anything here that's Heebo  */
 
-.about-title {
+.about-title, .our-story-h2 {
     font-family: 'Heebo', sans-serif;
 }
 
@@ -27,7 +27,7 @@ Text Colours */
 
 /* TEXT COLOUR #BCD6D5 : light blue */
 
-.about-title {
+.about-title, .our-story-h2 {
     color: #BCD6D5; 
 }
 
