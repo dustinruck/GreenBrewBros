@@ -59,8 +59,8 @@ Text Colours */
 
 /* THIS MAY CREATE CONFLICT  */
 .container-fluid, .container {
-    padding-left: 0rem;
-    padding-right: 0rem;
+    /* padding-left: 0rem;
+    padding-right: 0rem; */
     overflow: hidden;
 }
 
@@ -74,9 +74,6 @@ Text Colours */
         width: 100px;
     }
 
-    .about-us-cert-img {
-        width: 100px;
-    }
     
     .about-bottom {
         padding-bottom: 4em;
