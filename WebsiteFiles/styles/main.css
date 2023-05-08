@@ -66,17 +66,41 @@ Text Colours */
 
  .footer-address {
     line-height: 1.15em;
+    margin-left: -15px;
  }
 
+ footer .logo {
+    width: 100px;
+ }
 
 /* --------------------------------------------------------------------------------------------------------------
- MEDIA QUERIES: ORDER: (MAX 804) - (MAX-707) -  */
+ MEDIA QUERIES: ORDER: (MAX-934) - (MAX 804) - (MAX-707) - (MAX-613) */
 
+  @media screen and (max-width: 934px) {
+    .footer-address {
+        line-height: 1.1em;
+        margin-left: -12px;
+        font-size: .9em;
+     }
+    
+     footer .logo {
+        width: 87px;
+     }
+  }
 
    @media screen and (max-width: 804px) {
     .newsletter-h4 {
         font-size: 3.5em; 
     }
+
+    .footer-address {
+        margin-left: -6px;
+        font-size: .9em;
+     }
+    
+     footer .logo {
+        width: 80px;
+     }
   }
 
   @media screen and (max-width: 707px) {
