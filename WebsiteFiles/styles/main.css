@@ -80,9 +80,9 @@ footer h4 {
 
 .img
 
-.events-h1 {
+.eventsContainer1 .events-h1 {
    font-family: 'Heebo', sans-serif;
-   color: #DBBB85
+   color: #DBBB85;
    font-size: 7em;
    font-weight: 400;
 }
