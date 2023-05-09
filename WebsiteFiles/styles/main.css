@@ -22,6 +22,10 @@ font-family: 'Heebo', sans-serif; */
    color:#DBBB85 !important; 
 }
 
+header {
+   background-color: #F5F5F5;
+}
+
 /*END HEADER STYLING*/
 
 body {
