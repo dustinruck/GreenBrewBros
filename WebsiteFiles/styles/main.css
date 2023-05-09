@@ -16,6 +16,10 @@ body {
 
 /* Add anything here that's Heebo  */
 
+.about-title, .our-story-h2, .our-misson-h2, .our-commitment-h2 {
+   font-family: 'Heebo', sans-serif;
+}
+
 footer h4 {
    font-family: 'Heebo', sans-serif;
 }
