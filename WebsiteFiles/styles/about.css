@@ -59,9 +59,16 @@ Text Colours */
 
 /* THIS MAY CREATE CONFLICT  */
 .container-fluid, .container {
-    padding-left: 0rem;
-    padding-right: 0rem;
+    /* padding-left: 0rem;
+    padding-right: 0rem; */
     overflow: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+
+.about-us .fs-4 {
+    font-size: 2em!important;
+}
 }
 
 
@@ -74,9 +81,6 @@ Text Colours */
         width: 100px;
     }
 
-    .about-us-cert-img {
-        width: 100px;
-    }
     
     .about-bottom {
         padding-bottom: 4em;
@@ -89,7 +93,30 @@ Text Colours */
     .our-story-h2 {
         font-size: 2.75em;
     }
+
+    .our-misson-h2 {
+        margin-top: -3.5em;
+        margin-left: 3em;
+        font-size: 5em;
+       
+    }
   }
+
+  @media screen and (max-width: 992px) {
+    .our-misson-h2 {
+        margin-top: -3.25em;
+        margin-left: 3em;
+        font-size: 4em;
+       
+    }
+    .our-commitment-h2 {
+        font-size: 1.5em;
+    }
+
+    .about-us .fs-4 {
+        font-size: 1.25em!important;
+    }
+}
 
   @media screen and (max-width: 768px) {
     .opaque-band {
@@ -125,9 +152,15 @@ Text Colours */
         font-size: 2em;
     }
 
-
-
+    .our-misson-h2 {
+        margin-top: -3.3em;
+        margin-left: 4em;
+        font-size: 3em;
+       
+    }
   }
+
+
 
 
   @media screen and (max-width: 576px) {
@@ -150,6 +183,14 @@ Text Colours */
         padding-right: 1em;
     }
 
-
+    .our-misson-h2 {
+        margin-top: -3em;
+        margin-left: 3.75em;
+        font-size: 2.75em;
+       
+    }
+    .about-us .fs-4 {
+        font-size: 1em!important;
+    }
 
   }
