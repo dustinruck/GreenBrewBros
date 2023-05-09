@@ -225,7 +225,7 @@ footer .btn {
        margin-right: 0px;
     }
     .about-us .fs-4 {
-      font-size: 2em!important;
+      font-size: 1.6em!important;
     }
  }
 
@@ -245,7 +245,9 @@ footer .btn {
        margin-right: 0px;
     }
 
-
+    .about-us .fs-4 {
+      font-size: 1.3em!important;
+    }
 
  }
 
@@ -295,7 +297,7 @@ footer .btn {
   }
 
   .about-us .fs-4 {
-      font-size: 1.25em!important;
+      font-size: .75em!important;
   }
 
  }
@@ -464,6 +466,6 @@ footer .btn {
      
   }
   .about-us .fs-4 {
-      font-size: 1em!important;
+      font-size: 1.25em!important;
   }
   }
