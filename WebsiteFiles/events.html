@@ -156,150 +156,121 @@
     </div>
 
 
+    <!--FOOTER----------------------------------------------------------------------------------------------------------->
+
     <footer class="footer">
-        <div class="container-fluid p-0 footer-container m-0" style="border: black 1px solid;">
-            footer container IMAGE
-            <!-- Put the image of the hops here, I've already rotated it and resized it to be more 
-            appropriate. I've adjusted the margin of the row below, so it should jut out 
-            and the background colours are opaque, so it should work. I want to save this 
-            until the end because it will just be way too busy to work off us.  -->
+        <div class="container-fluid p-0 mt-5 w-100">
 
+            <!--Spacing for image-->
+            <div class="row m-5"></div>
+            <div class="row m-5"></div>
 
+            <!-- NEWSLETTER -->
+            <div class="row newsletter pt-4 pb-5 m-0">
 
-            <!-- NEWSLETTER  -->
-
-            <!-- TODO: Vertical padding on bottom  -->
-            <div class="row footer-newsletter mt-5">
-                <!-- manually increas -->
-
-                <!-- STAY IN TOUCH TEXT 
-                margin to the left 
-            resize/colour -->
-                <div class="col-12 col-sm-4">
-                    <h4 class="newsletter-h4">Stay <br> in touch. </h4>
+                <!-- STAY IN TOUCH TEXT -->
+                <div class="col-12 col-sm-4 pl-2">
+                    <h4>Stay <br>in touch.</h4>
                 </div>
                 <div class="col-12 col-sm-8">
-
                     <!-- FORM -->
                     <!-- TODO: What do we send this form to? -->
-
                     <div class="container-fluid px-0">
-                        <form action="http://jac.stephmoreau.ca/submitForm/" method="POST" class="m-0 form"
-                            style="border: red 1px solid;">
+                        <form action="http://jac.stephmoreau.ca/submitForm/" method="POST" class="m-0 form" target="_blank">
                             <!-- TODO: mt-5 likely needs to be deleted - replaced in css file 
                             COME BACK TO THIS-->
-                            <div class="form-row footer-signup form-group mt-5">
-
+                            <div class="form-row form-group mt-5">
                                 <!-- Sign up blurb  -->
-                                <div class="col-12 col-sm-11 col-sm-offset-1 text-center text-sm-start"><label
-                                        for="newsletter-email" class="footer-label">
+                                <div class="col-12 col-sm-11 offset-sm-1 text-center text-sm-start pb-2">
+                                    <label for="newsletter-email">
                                         Sign
                                         up to receive our
                                         newsletter and be the first
                                         to hear about upcoming events and promotions.
                                     </label>
                                 </div>
-                                <div class="col-12 col-sm-11 col-sm-offset-1">
-                                    <div class="row footer-form">
-
-
-
-                                        <div class="row text">
-                                            <div class="col-12 col-sm-5 text-center">
+                                <div class="col-12 col-sm-11 offset-sm-1">
+                                    <div class="row justify-content-center">
+                                        <div class="row ">
+                                            <div class="col-12 col-sm-8 col-md-7 text-center p-sm-0">
                                                 <input type="email" id="newsletter-email" name="userEmail"
                                                     class="form-control text-center text-sm-start"
                                                     aria-describedby="emailNewsletterSignUp">
                                             </div>
                                             <!-- button  -->
-                                            <div class="col-12 col-sm-7 text-center text-sm-start">
-                                                <input type="submit" name="btn-submit-email" class="newsletter-btn btn">
-
+                                            <div class="col-12 col-sm-4 text-center text-sm-start">
+                                                <input type="submit" name="btn-submit-email"
+                                                    class="btn footer-btn rounded-pill mt-2 mt-sm-0 px-5 px-sm-3 px-md-5">
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-
-
-        <!-- Bottom of footer  -->
-        <div class="footer-bottom mx-0">
-            <!-- Responsibly  -->
-            <div class="row  m-0"> <!-- background opacityyyyyy footer-bottom -->
-                <div class="col-12 mt-0 mb-5 mb-sm-0 text-center legal-container">
-                    <small class="col-12 footer-legal-warning m-0 p-0">
-                        Please Drink Responsibly
-                    </small>
+            <!-- Bottom of footer  -->
+            <div class="row footer-bottom m-0">
+                <!-- Responsibly  -->
+                <div class="row  m-0"> <!-- background opacityyyyyy footer-bottom -->
+                    <div class="col-12 mt-0 mb-4 mb-sm-0 text-center legal-container">
+                        <small class="col-12 footer-legal-warning m-0 p-0 fw-bold">
+                            Please Drink Responsibly
+                        </small>
+                    </div>
                 </div>
-            </div>
-
-            <!-- middle of footer  -->
-            <div class="row  m-0">
-                <div class="col-12 col-sm-3 text-center order-sm-last footer-socials">
-
-                    <!-- Handle and Icons 
-                        This is all centered-->
-                    <div class="row ">
-                        <div class="col-12 pt-3">
-                            <h4 class="handle p-0 m-0">@GreenBrewBros</h4>
+                <div class="row  m-0 justify-content-between">
+                    <div
+                        class="col-12 col-sm-4 col-md-3 offset-sm-1 offset-md-2 text-center order-sm-last align-self-center">
+                        <!-- Handle and Icons -->
+                        <div class="row">
+                            <div class="col-12 pt-3">
+                                <h4 class="handle p-0 mb-2 mb-sm-0 fs-sm-5 fs-md-4 fs-lg-3">@GreenBrewBros</h4>
+                            </div>
+                            <!-- ICONS -->
+                            <div class="col-12 pt-2 mb-4 mb-sm-0">
+                                <a href="#"><i class="bi bi-instagram mx"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-vimeo"></i></a>
+                                <a href="#"><i class="fa fa-brands fa-foursquare"></i></a>
+                            </div>
                         </div>
+                    </div>
+                    <!--Contact-->
+                    <div class="col-12 col-sm-2 text-center mb-4 mb-sm-0 p-0 order-sm-1 align-self-center">
+                        <a href="contact.html" class="nav-link col-12 contact">Contact Us</a>
+                    </div>
+                    <!-- logo and address  -->
+                    <div class="col-12 col-sm-5 text-sm-start text-center m-0">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-5">
+                                <a href="index.html"><img class="w-100 object-fit-scale p-xl-2 p-xxl-3"
+                                        src="images/Logo.png"
+                                        alt="Our Logo. Ellipse with Green Brew Bros surrounded by wheat"></a>
+                            </div>
+                            <div class="col-12 col-sm-7 d-none d-sm-block p-0 m-0 pt-4">
+                                <p class="address">
+                                    6245 Chebucto Rd <br>
+                                    Halifax, NS <br>
+                                    B3L 1K8 <br>
+                                    782-880-8512 <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-                        <!-- ICONS -->
-                        <div class="col-12 pt-2">
-                            <a href="#"><i class="bi bi-instagram mx"></i></a>
-                            <a href="#"><i class="bi bi-twitter"></i></a>
-                            <a href="#"><i class="bi bi-facebook"></i></a>
-                            <a href="#"><i class="bi bi-vimeo"></i></a>
-                            <a href="#"><i class="fa fa-brands fa-foursquare"></i></a>
+                </div>
+                <div class="row  m-0"> <!-- background opacityyyyyy footer-bottom -->
+                    <div class="col-12 text-center">
+                        <div class="row pb-2">
+                            <small class="col-12 m-sm-0 mt-3 mb-0 p-0 copyright">&copy;2023 The GreenBrewBros
+                                Microbrewery</small>
                         </div>
                     </div>
                 </div>
-
-
-                <!-- logo and address  -->
-                <div class="col-12 col-sm-9 text-sm-start text-center m-0 address-logo">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-sm-2 "><a href="index.html"><img src="images/Logo.png"
-                                    alt="Our Logo. Ellipse with Green Brew Bros surrounded by wheat "
-                                    class="logo pt-0"></a>
-                        </div>
-                        <div class="col-6 d-none d-sm-block pt-3">
-                            <p class="footer-address">
-
-                                6245 Chebucto Rd <br>
-                                Halifax, NS <br>
-                                B3L 1K8 <br>
-                                782-880-8512 <br> </p>
-
-                        </div>
-                    </div>
-                </div>
             </div>
-
-
-            <div class="row  m-0"> <!-- background opacityyyyyy footer-bottom -->
-                <div class="col-12 text-center">
-                    <div class="row">
-                        <a href="#" class="nav-link footer-contact-us col-12">Contact Us </a>
-                        <!-- @media in css, very very negative bottom margin, push it past next row. 
-                        This is the only way I can think of to keep it centered, and go on the page where we want it to
-                    that doesn't involve creating two seperate contact us links and hiding them. -->
-                        <small class="col-12 m-sm-0 mt-3 mb-0 p-0 copyright">&copy;2023 The GreenBrewBros
-                            Microbrewery</small>
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-
-
-
-        <!-- end of footer  -->
-        </div>
     </footer>
 
 
