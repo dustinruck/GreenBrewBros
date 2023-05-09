@@ -25,12 +25,6 @@ footer h4 {
   color: #BCD6D5;
 }
 
-.homepage .btn {
-   font-family: 'Heebo', sans-serif;
-   color: #F5F5F5;
-   background-color: #DBBB85
- }
-
 /*I added some events and brewery pages stuff*/
 
 
@@ -146,14 +140,12 @@ footer .newsletter {
     margin-right: 1px;
  }
 
-footer .btn {
-   background-color: #DBBB85!important;
-
+.footer-btn {
+   background-color: #DBBB85;
 }
 
- footer .btn:hover {
-   background-color: #DBBB85!important;
-
+ .footer-btn:hover {
+   background-color: #DBBB85;
  }
 
  .header-img {
