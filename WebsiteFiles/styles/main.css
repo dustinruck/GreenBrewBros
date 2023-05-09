@@ -143,6 +143,11 @@ footer .newsletter {
  .footer-btn:hover {
    background-color: #DBBB85;
  }
+
+ .header-img {
+   margin-bottom: -5.25em;
+ }
+
 /* Background image */
  footer {
    background-image: url("../images/background-footer.jpeg");
@@ -184,7 +189,15 @@ footer .newsletter {
        margin-left: 0px;
        margin-right: 0px;
     }
+
  }
+
+ @media screen and (max-width: 991px) {
+   .small-header-img {
+      margin-bottom: -2.75em;
+   }
+ }
+ 
    @media screen and (max-width: 934px) {
     footer .address, footer .contact {
         line-height: 1.1em;
