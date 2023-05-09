@@ -25,11 +25,53 @@ footer h4 {
   color: #BCD6D5;
 }
 
-/*not sure what this block is for, it gives error so commented out until completed or removed*/
-/* {
-    font-family: 'Heebo', sans-serif;
-    color: #064635;
-} */
+/*I added some events and brewery pages stuff*/
+
+
+.brewery-h1 {
+   font-family: 'Heebo', sans-serif;
+   color: #064635;
+   font-size: 7em;
+   font-weight: 400;
+   padding-top: 20%;
+}
+
+.brewery-h2 {
+   font-family: 'Heebo', sans-serif;
+   color: #064635;
+   font-size: 3em;
+   font-weight: 400;
+   padding-top: 5%;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+.brewery-p {
+   font-family: 'Cairo', sans-serif;
+   color: #000000;
+   font-size: 1.25em;
+   font-weight: 400;
+   padding-top: 6%;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+.events-p {
+}
+
+.img
+
+.h1_Opac65 {
+   font-family: 'Heebo', sans-serif;
+   color: #DBBB85
+}
+
+.google-map {
+   padding-top: 5%;
+   padding-bottom: 5%;
+   webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
 
 
 /* --------------------------------------------------------------------------------------------------------------
