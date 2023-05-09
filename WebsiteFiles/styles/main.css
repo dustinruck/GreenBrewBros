@@ -136,12 +136,14 @@ footer .newsletter {
     margin-right: 1px;
  }
 
-.footer-btn {
-   background-color: #DBBB85;
+footer .btn {
+   background-color: #DBBB85!important;
+
 }
 
- .footer-btn:hover {
-   background-color: #DBBB85;
+ footer .btn:hover {
+   background-color: #DBBB85!important;
+
  }
 
  .header-img {
