@@ -2,14 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Green Brew Bros</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" href="images/Logo.png" type="image/x-icon">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
     <link rel="stylesheet" href="styles/main.css">
+
 
 </head>
 
@@ -17,52 +22,47 @@
 
     <!--HEADER----------------------------------------------------------------------------------------------------------->
 
-    <header id="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background: #f5f5f5">
-            <div class="container-fluid">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--make the logo and language button which appear only in the mobile page-->
-                <a class="d-lg-none navbar-brand d-sm-block d-md-block" href="#"><img src="images/LogoMobile.png"></a>
-
-                <a class="nav-link d-lg-none d-sm-block d-md-block" href="#">EN | FR</a>
-                <!--make the nav bar which appears only in the large page-->
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Our Beers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navbar-brand ms-3 d-none d-lg-block" href="#"><img src="images/LogoSmall.png"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Our Brewery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Get in Touch</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link d-none d-lg-block" href="#">EN | FR</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <header class="navbar navbar-expand-lg" style="background: #f5f5f5">
+        <div class="container-fluid">
+            
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--make the logo and language button which appear only in the mobile page-->
+          <a class="d-lg-none navbar-brand d-sm-block d-md-block" href="#"><img src="images/LogoMobile.png"></a>
+          
+          <a class="nav-link d-lg-none d-sm-block d-md-block" href="#">EN | FR</a>
+          <!--make the nav bar which appears only in the large page-->
+          <!--make sure the active keyword in your class is on the right page and the aria-current as well!-->
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link h-link mt-1 mt-md-5" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h-link mt-1 mt-md-5" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h-link mt-1 mt-md-5" href="events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h-link mt-1 mt-md-5 active" aria-current="page" href="products.html">Our Beers</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand ms-3 d-none d-lg-block" href="index.html"><img src="images/LogoSmall.png" class="header-img"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h-link mt-1 mt-md-5" href="brewery.html">Our Brewery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h-link mt-1  mt-md-5" href="contact.html">Get in Touch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h-link mt-1  mt-md-5 d-none d-lg-block" href="#">EN | FR</a>
+              </li>
+            </ul>
+          </div>
+        </div>
     </header>
 
     <!--MAIN----------------------------------------------------------------------------------------------------------->
@@ -74,36 +74,16 @@
         </div>
 
         <!--Trade Show-->
-        <div class="container-fluid w-100 m-0 p-0">
-            <div class="row m-0 p-0 pt-5">
-                <div class="col-12 d-sm-none position-relative m-0 p-0">
-                    <img src="images/home2.jpg" alt="glasses of beer" class="p-0 m-0 w-100 object-fit-cover">
-                    <div class="tradeshow col-12 d-sm-none text-center position-absolute top-0 py-4">
-                        <h1>Summer 2023 Trade Show Circuit</h1>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-7 d-flex">
-                    <div class="card text-center border-white rounded-0 flex-fill">
-                        <!--Mobile image top-->
-                        <div class="card-body">
-                            <h1 class="card-title d-none d-sm-block">Summer 2023 Trade Show Circuit</h1>
-                            <p class="card-text text-start">
-                                Summer is just around the corner... it's trade show season! Green Brew Bros will be featured at four jam-packed events where we will be showcasing new brews, presenting our environmental initiatives, and as always, spreading the good vibes. We hope to see you there.
-                            </p>
-                            <a href="events.html" class="btn rounded-pill">Buy Tickets Now</a>
-                        </div>   
-                    </div>
-                <!--Desktop image right-->
-                </div>
-                <div class="col-sm-5 d-flex d-none d-sm-block px-4">
-                        <img src="images/home2.jpg" alt="glasses of beer" class="h-100 w-100 object-fit-cover">
-                </div>
+
         <div class="row pt-5">
-            <div class="col-sm-7 d-flex">
+            <div class="col-sm-7 d-flex ">
                 <div class="card text-center border-white rounded-0 flex-fill">
                     <!--Mobile image top-->
-                    <img src="images/home2.jpg" alt="Glasses of beer" class="card-img-top d-sm-none rounded-0">
-                    <div class="card-body">
+                    <div class="col-12 opaque-background-index opaque-band"> </div>
+                    <div class="opaque-background">
+                        <img src="images/home2.jpg" alt="Glasses of beer" class="card-img-top d-sm-none rounded-0">
+                    </div>
+                    <div class="card-body opaque-background-index">
                         <h1 class="card-title">Summer 2023 Trade Show Circuit</h1>
                         <p class="card-text text-start">
                             Summer is just around the corner... it's trade show season! Green Brew Bros will be featured
@@ -120,6 +100,53 @@
                 <img src="images/home2.jpg" alt="glasses of beer" class="h-100 w-100 object-fit-cover">
             </div>
         </div>
+
+        <!-- <div class="container-fluid w-100 m-0 p-0">
+            <div class="row m-0 p-0 pt-5">
+                <div class="col-12 d-sm-none position-relative m-0 p-0">
+                    <img src="images/home2.jpg" alt="glasses of beer" class="p-0 m-0 w-100 object-fit-cover">
+                    <div class="tradeshow col-12 d-sm-none text-center position-absolute top-0 py-4">
+                        <h1>Summer 2023 Trade Show Circuit</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-7 d-flex">
+                    <div class="card text-center border-white rounded-0 flex-fill">
+                        <!--Mobile image top-->
+                        <!-- <div class="card-body">
+                            <h1 class="card-title d-none d-sm-block">Summer 2023 Trade Show Circuit</h1>
+                            <p class="card-text text-start">
+                                Summer is just around the corner... it's trade show season! Green Brew Bros will be featured at four jam-packed events where we will be showcasing new brews, presenting our environmental initiatives, and as always, spreading the good vibes. We hope to see you there.
+                            </p>
+                            <a href="events.html" class="btn rounded-pill">Buy Tickets Now</a>
+                        </div>   
+                    </div>
+                <!--Desktop image right-->
+                <!-- </div>
+                <div class="col-sm-5 d-flex d-none d-sm-block px-4">
+                        <img src="images/home2.jpg" alt="glasses of beer" class="h-100 w-100 object-fit-cover">
+                </div> -->
+        <!-- <div class="row pt-5">
+            <div class="col-sm-7 d-flex">
+                <div class="card text-center border-white rounded-0 flex-fill">
+                    <!--Mobile image top-->
+                    <!-- <img src="images/home2.jpg" alt="Glasses of beer" class="card-img-top d-sm-none rounded-0">
+                    <div class="card-body">
+                        <h1 class="card-title">Summer 2023 Trade Show Circuit</h1>
+                        <p class="card-text text-start">
+                            Summer is just around the corner... it's trade show season! Green Brew Bros will be featured
+                            at four jam-packed events where we will be showcasing new brews, presenting our
+                            environmental initiatives, and as always, spreading the good vibes. We hope to see you
+                            there.
+                        </p>
+                        <a href="events.html" class="btn rounded-pill">Buy Tickets Now</a>
+                    </div>
+                </div>
+                <!--Desktop image right-->
+            <!-- </div>
+            <div class="col-sm-5 d-flex d-none d-sm-block px-4">
+                <img src="images/home2.jpg" alt="glasses of beer" class="h-100 w-100 object-fit-cover">
+            </div> 
+        </div> -->
 
 
         <!--Organic-->
