@@ -66,13 +66,13 @@ Text Colours */
 
 @media screen and (min-width: 1200px) {
 
-.about-us .fs-4 {
+/* .about-us .fs-4 {
     font-size: 2em!important;
-}
+} */
 }
 
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .opaque-background {
         background-color: #f5f5f5;
     }
@@ -100,7 +100,7 @@ Text Colours */
         font-size: 5em;
        
     }
-  }
+  } */
 
   @media screen and (max-width: 992px) {
     .our-misson-h2 {
