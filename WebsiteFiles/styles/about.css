@@ -39,7 +39,7 @@ Text Colours */
 
 /* TEXT COLOUR #064635 : forest green  */
 
-.our-story-p, .our-mission-p, .our-commitment-p, .our-misson-h2 {
+.our-story-p, .our-mission-p, .our-commitment-p, .our-misson-h2, .about-us-btn {
     color: #064635;
 }
 
@@ -62,6 +62,16 @@ Text Colours */
     /* padding-left: 0rem;
     padding-right: 0rem; */
     overflow: hidden;
+}
+
+.about-us-btn {
+    background-color: #DBBB85;
+}
+
+.about-us-btn:hover {
+    background-color: #DBBB85;
+    font-weight: 600;
+    color:#064635; 
 }
 
 @media screen and (min-width: 1200px) {
