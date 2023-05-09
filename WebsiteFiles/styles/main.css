@@ -16,6 +16,10 @@ body {
 
 /* Add anything here that's Heebo  */
 
+.about-title, .our-story-h2, .our-misson-h2, .our-commitment-h2 {
+   font-family: 'Heebo', sans-serif;
+}
+
 footer h4 {
    font-family: 'Heebo', sans-serif;
 }
@@ -68,7 +72,7 @@ footer h4 {
 .events-p {
 }
 
-
+   
 
 .img
 
@@ -92,7 +96,7 @@ Text Colours */
 
 /* TEXT COLOUR #BCD6D5 : light blue */
 
-footer, footer .bi, footer .fa-brands {
+footer, footer .bi, footer .fa-brands, .about-title, .our-story-h2, .our-commitment-h2 {
    color: #BCD6D5; 
 }
 
@@ -103,6 +107,10 @@ footer, footer .bi, footer .fa-brands {
 
 footer label, footer .btn {
    color: #F5F5F5;
+}
+
+.our-story-p, .our-mission-p, .our-commitment-p, .our-misson-h2, .about-us-btn {
+   color: #064635;
 }
 /* TEXT COLOUR #064635 : forest green  */
 
