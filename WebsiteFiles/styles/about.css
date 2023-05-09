@@ -17,9 +17,9 @@ body {
 
 /* Add anything here that's Heebo  */
 
-.about-title, .our-story-h2, .our-misson-h2, .our-commitment-h2 {
+/* .about-title, .our-story-h2, .our-misson-h2, .our-commitment-h2 {
     font-family: 'Heebo', sans-serif;
-}
+} */
 
 
 /* --------------------------------------------------------------------------------------------------------------
@@ -27,9 +27,9 @@ Text Colours */
 
 /* TEXT COLOUR #BCD6D5 : light blue */
 
-.about-title, .our-story-h2, .our-commitment-h2 {
+/* .about-title, .our-story-h2, .our-commitment-h2 {
     color: #BCD6D5; 
-}
+} */
 
 /* TEXT COLOUR #DBBB85 : sand  */
 
@@ -39,9 +39,9 @@ Text Colours */
 
 /* TEXT COLOUR #064635 : forest green  */
 
-.our-story-p, .our-mission-p, .our-commitment-p, .our-misson-h2, .about-us-btn {
+/* .our-story-p, .our-mission-p, .our-commitment-p, .our-misson-h2, .about-us-btn {
     color: #064635;
-}
+} */
 
 .about-us-cert-img {
     width: 80px;
