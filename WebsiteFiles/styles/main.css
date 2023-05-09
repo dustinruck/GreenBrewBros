@@ -80,9 +80,9 @@ footer h4 {
 
 .img
 
-.events-h1 {
+.eventsContainer h1 {
    font-family: 'Heebo', sans-serif;
-   color: #DBBB85
+   color: #DBBB85;
    font-size: 7em;
    font-weight: 400;
 }
@@ -130,6 +130,10 @@ footer, footer .bi, footer .fa-brands, .about-title, .our-story-h2, .our-commitm
 }
 
 /* TEXT COLOUR #DBBB85 : sand  */
+
+.events-heading {
+   color: #DBBB85;
+}
 
 
 /* TEXT COLOUR #F5F5F5 : off-white  */
@@ -204,6 +208,12 @@ footer .btn {
  footer {
    background-image: url("../images/background-footer.jpeg");
    object-fit: cover;
+ }
+
+ .events-heading {
+   font-size: 1.6em;
+   font-weight: 500;
+
  }
 
 /* --------------------------------------------------------------------------------------------------------------
