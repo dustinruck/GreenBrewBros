@@ -12,58 +12,60 @@
     <link rel="stylesheet" href="styles/main.css">
 
 </head>
+
 <body>
 
-<!--HEADER----------------------------------------------------------------------------------------------------------->
+    <!--HEADER----------------------------------------------------------------------------------------------------------->
 
     <header id="header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background: #f5f5f5">
             <div class="container-fluid">
-                
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <!--make the logo and language button which appear only in the mobile page-->
-              <a class="d-lg-none navbar-brand d-sm-block d-md-block" href="#"><img src="images/LogoMobile.png"></a>
-              
-              <a class="nav-link d-lg-none d-sm-block d-md-block" href="#">EN | FR</a>
-              <!--make the nav bar which appears only in the large page-->
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Our Beers</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="navbar-brand ms-3 d-none d-lg-block" href="#"><img src="images/LogoSmall.png"></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Our Brewery</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Get in Touch</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link d-none d-lg-block" href="#">EN | FR</a>
-                  </li>
-                </ul>
-              </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--make the logo and language button which appear only in the mobile page-->
+                <a class="d-lg-none navbar-brand d-sm-block d-md-block" href="#"><img src="images/LogoMobile.png"></a>
+
+                <a class="nav-link d-lg-none d-sm-block d-md-block" href="#">EN | FR</a>
+                <!--make the nav bar which appears only in the large page-->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Beers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand ms-3 d-none d-lg-block" href="#"><img src="images/LogoSmall.png"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Brewery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Get in Touch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-none d-lg-block" href="#">EN | FR</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
 
-<!--MAIN----------------------------------------------------------------------------------------------------------->
+    <!--MAIN----------------------------------------------------------------------------------------------------------->
     <main class="container-fluid homepage">
         <!--top image(s)-->
         <!--TODO: carousel?-->
@@ -96,6 +98,26 @@
                 <div class="col-sm-5 d-flex d-none d-sm-block px-4">
                         <img src="images/home2.jpg" alt="glasses of beer" class="h-100 w-100 object-fit-cover">
                 </div>
+        <div class="row pt-5">
+            <div class="col-sm-7 d-flex">
+                <div class="card text-center border-white rounded-0 flex-fill">
+                    <!--Mobile image top-->
+                    <img src="images/home2.jpg" alt="Glasses of beer" class="card-img-top d-sm-none rounded-0">
+                    <div class="card-body">
+                        <h1 class="card-title">Summer 2023 Trade Show Circuit</h1>
+                        <p class="card-text text-start">
+                            Summer is just around the corner... it's trade show season! Green Brew Bros will be featured
+                            at four jam-packed events where we will be showcasing new brews, presenting our
+                            environmental initiatives, and as always, spreading the good vibes. We hope to see you
+                            there.
+                        </p>
+                        <a href="events.html" class="btn rounded-pill">Buy Tickets Now</a>
+                    </div>
+                </div>
+                <!--Desktop image right-->
+            </div>
+            <div class="col-sm-5 d-flex d-none d-sm-block px-4">
+                <img src="images/home2.jpg" alt="glasses of beer" class="h-100 w-100 object-fit-cover">
             </div>
         </div>
 
@@ -203,7 +225,7 @@
         </div>
     </main>
 
-<!--FOOTER----------------------------------------------------------------------------------------------------------->
+    <!--FOOTER----------------------------------------------------------------------------------------------------------->
 
     <footer class="footer">
         <div class="container-fluid p-0 mt-5 w-100">
@@ -223,7 +245,7 @@
                     <!-- FORM -->
                     <!-- TODO: What do we send this form to? -->
                     <div class="container-fluid px-0">
-                        <form action="index.html" method="POST" class="m-0 form">
+                        <form action="http://jac.stephmoreau.ca/submitForm/" method="POST" class="m-0 form">
                             <!-- TODO: mt-5 likely needs to be deleted - replaced in css file 
                             COME BACK TO THIS-->
                             <div class="form-row form-group mt-5">
