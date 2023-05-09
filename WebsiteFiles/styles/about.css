@@ -57,12 +57,12 @@ Text Colours */
 }
 
 
-/* THIS MAY CREATE CONFLICT  */
+/* THIS MAY CREATE CONFLICT  
 .container-fluid, .container {
-    /* padding-left: 0rem;
-    padding-right: 0rem; */
+    padding-left: 0rem;
+    padding-right: 0rem; 
     overflow: hidden;
-}
+} */
 
 .about-us-btn {
     background-color: #DBBB85;
@@ -71,7 +71,7 @@ Text Colours */
 .about-us-btn:hover {
     background-color: #DBBB85;
     font-weight: 600;
-    color:#064635; 
+    color:#064635;z
 }
 
 @media screen and (min-width: 1200px) {
