@@ -30,13 +30,13 @@ footer h4 {
 }
 
 .homepage .display-1 {
-   color: #F5F5F5;;
+   color: #DBBB85;
  }
 
 .homepage .btn {
    font-family: 'Heebo', sans-serif;
    color: #F5F5F5;
-   background-color: #DBBB85
+   background-color: #DBBB85;
  }
 
  .homepage .btn:hover {
