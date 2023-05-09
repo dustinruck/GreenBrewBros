@@ -43,26 +43,16 @@ Text Colours */
     color: #064635;
 } */
 
-.about-us-cert-img {
+/* .about-us-cert-img {
     width: 80px;
 }
 
-/* CHANGE THISSSS  */
-.about-title {
-    font-size: 3.5em;
-}
 
 .opaque-background {
     background-color: rgb(6, 70, 53, 50%);
 }
 
 
-/* THIS MAY CREATE CONFLICT  
-.container-fluid, .container {
-    padding-left: 0rem;
-    padding-right: 0rem; 
-    overflow: hidden;
-} */
 
 .about-us-btn {
     background-color: #DBBB85;
@@ -72,7 +62,7 @@ Text Colours */
     background-color: #DBBB85;
     font-weight: 600;
     color:#064635;z
-}
+} */
 
 @media screen and (min-width: 1200px) {
 

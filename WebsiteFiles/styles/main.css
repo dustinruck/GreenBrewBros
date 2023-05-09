@@ -90,6 +90,28 @@ footer h4 {
    filter: grayscale(100%);
 }
 
+.about-us-cert-img {
+   width: 80px;
+}
+/* --------------------------------------------------------------------------------------------------------------
+About Us */
+
+
+.opaque-background {
+   background-color: rgb(6, 70, 53, 50%);
+}
+
+
+
+.about-us-btn {
+   background-color: #DBBB85;
+}
+
+.about-us-btn:hover {
+   background-color: #DBBB85;
+   font-weight: 600;
+   color:#064635;z
+}
 
 /* --------------------------------------------------------------------------------------------------------------
 Text Colours */
