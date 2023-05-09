@@ -51,7 +51,7 @@ footer h4 {
    color: #DBBB85;
  }
 
-.homepage .btn {
+/* .homepage .btn {
    font-family: 'Heebo', sans-serif;
    color: #F5F5F5;
    background-color: #DBBB85;
@@ -59,6 +59,17 @@ footer h4 {
 
  .homepage .btn:hover {
    background-color: #cb9538
+ } */
+
+   .btn {
+   font-family: 'Heebo', sans-serif;
+   color: #F5F5F5;
+   background-color: #DBBB85;
+ }
+
+   .btn:hover {
+      background-color: #cb9538;
+      font-weight: 600;
  }
 /*I added some events and brewery pages stuff*/
 
@@ -113,15 +124,15 @@ About Us */
 
 
 
-.about-us-btn {
+/* .about-us-btn {
    background-color: #DBBB85;
-}
+} */
 
-.about-us-btn:hover {
+/* .about-us-btn:hover {
    background-color: #DBBB85;
    font-weight: 600;
    color:#064635;
-}
+} */
 
 .about-us-body {
    background-color: #f5f5f5;
@@ -186,20 +197,20 @@ p.products {
 
 }
 
-.submit-button, .products-main-button{
+/* .submit-button, .products-main-button{
    font-family: 'Heebo', sans-serif;
    font-size: x-large;
    color:#F5F5F5;
    background-color: #064635;
    border-radius: 8px;
 
-}
+} */
 
-.submit-button:hover, .products-main-button:hover {
+/* .submit-button:hover, .products-main-button:hover {
    background-color: #DBBB85;
    font-weight: 600;
    color:#064635;
-}
+} */
 
 .product-carousel-button {
    background-color: #064635;
@@ -225,11 +236,11 @@ footer, footer .bi, footer .fa-brands, .about-title, .our-story-h2, .our-commitm
 
 /* TEXT COLOUR #F5F5F5 : off-white  */
 
-footer label, footer .btn {
+footer label {
    color: #F5F5F5;
 }
 
-.our-story-p, .our-mission-p, .our-commitment-p, .our-misson-h2, .about-us-btn {
+.our-story-p, .our-mission-p, .our-commitment-p, .our-misson-h2 {
    color: #064635;
 }
 /* TEXT COLOUR #064635 : forest green  */
@@ -277,15 +288,7 @@ footer .newsletter {
     margin-right: 1px;
  }
 
-footer .btn {
-   background-color: #DBBB85!important;
 
-}
-
- footer .btn:hover {
-   background-color: #DBBB85!important;
-
- }
 
  .header-img {
    margin-bottom: -5.25em;
